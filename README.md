@@ -26,3 +26,11 @@ La aplicación puede ejecutarse por línea de comandos para automatizar su utili
 Ejemplo en sistemas operativos GNU/Linux:
 
 `./buscardor_texto_epub -ruta /home/nombre_usuario/coleccion_epubs -busqueda "bases de datos" -limite 30 -informe /home/nombre_usuario/informes/resultados_base_datos.csv -simultaneidad 5`
+
+![Captura de pantalla](https://i.imgur.com/xn6K9UH.png)
+![Captura de pantalla](https://i.imgur.com/sd9TRby.png)
+![Captura de pantalla](https://i.imgur.com/lLOXosF.png)
+![Captura de pantalla](https://i.imgur.com/BwlxExP.png)
+![Captura de pantalla](https://i.imgur.com/tgFxHmO.png)
+![Captura de pantalla](https://i.imgur.com/TkrjeaD.png)
+![Captura de pantalla](https://i.imgur.com/G0MEuIY.png)

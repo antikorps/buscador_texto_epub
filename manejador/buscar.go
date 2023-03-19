@@ -78,6 +78,7 @@ func buscarEnEpub(canal chan Resultado, rutaEpub, rutaTemporal, termino string, 
 	nombreArchivo := strings.TrimSuffix(filepath.Base(rutaEpub), ".epub")
 	carpetaDestino := filepath.Join(rutaTemporal, fmt.Sprintf("%v_%v", time.Now().Unix(), nombreArchivo))
 	os.Mkdir(carpetaDestino, 0777)
+	defer os.RemoveAll(carpetaDestino)
 
 	descomprimirError := descomprimir(rutaEpub, carpetaDestino)
 	if descomprimirError != nil {
